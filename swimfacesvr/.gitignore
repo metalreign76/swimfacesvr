@@ -1,0 +1,4 @@
+node_modules
+.env
+debug.log
+user_to_biometric_mappings.json
