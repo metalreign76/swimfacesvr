@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "SET DEBUG=swimfacesvr:* & SET PORT=3001 & node ./bin/www"
+    "start": "SET DEBUG=swimfacesvr:* & SET PORT=3001 & nodemon ./bin/www"
   },
   "dependencies": {
     "axios": "^0.18.0",

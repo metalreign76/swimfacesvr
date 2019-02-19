@@ -1,0 +1,30 @@
+[
+  {
+    "Guid": "070cd476-0b65-48b6-8660-fea0a8a5646d",
+    "SessionName": "Monday 6:30"
+  },
+  {
+    "Guid": "72d9b1a8-3b1d-4f1b-abce-7e54cf9d8b35",
+    "SessionName": "Monday 7:30"
+  },
+  {
+    "Guid": "cb186763-9bf5-4ba2-9326-6bc09b0cd153",
+    "SessionName": "Monday 8:30"
+  },
+  {
+    "Guid": "0c495589-f365-46ec-8f9a-7012d066635f",
+    "SessionName": "Thursday 7:30"
+  },
+  {
+    "Guid": "12938d89-203c-4983-b380-546d19f32a8a",
+    "SessionName": "Thursday 8:30"
+  },
+  {
+    "Guid": "59e8630b-b5eb-4377-b014-3244f9010915",
+    "SessionName": "Saturday 4:00"
+  },
+  {
+    "Guid": "0f31c1c7-3c83-4940-8019-7d47f76409d1",
+    "SessionName": "Saturday 5:00"
+  }
+]
