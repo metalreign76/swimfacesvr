@@ -2,8 +2,8 @@
   "expoServerPort": 19000,
   "expoServerNgrokUrl": "https://vk-nvj.anonymous.swimfacembl.exp.direct",
   "packagerNgrokUrl": "https://packager.vk-nvj.anonymous.swimfacembl.exp.direct",
-  "ngrokPid": 15352,
+  "ngrokPid": 10084,
   "devToolsPort": 19002,
   "packagerPort": 19001,
-  "packagerPid": 11148
+  "packagerPid": 6224
 }
