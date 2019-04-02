@@ -4,7 +4,7 @@ import { createStackNavigator, createBottomTabNavigator } from 'react-navigation
 
 import TabBarIcon from '../components/TabBarIcon';
 import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
+import RegisterScreen from '../screens/RegisterScreen';
 import ConfigScreen from '../screens/ConfigScreen';
 
 const HomeStack = createStackNavigator({
@@ -12,29 +12,29 @@ const HomeStack = createStackNavigator({
 });
 
 HomeStack.navigationOptions = {
-  tabBarLabel: 'Home',
+  tabBarLabel: 'Attendance',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
       name={
         Platform.OS === 'ios'
-          ? `ios-information-circle${focused ? '' : '-outline'}`
-          : 'md-information-circle'
+          ? `ios-checkmark-circle${focused ? '' : '-outline'}`
+          : 'md-checkmark-circle-outline'
       }
     />
   ),
 };
 
-const LinksStack = createStackNavigator({
-  Links: LinksScreen,
+const RegisterStack = createStackNavigator({
+  Register: RegisterScreen,
 });
 
-LinksStack.navigationOptions = {
-  tabBarLabel: 'Links',
+RegisterStack.navigationOptions = {
+  tabBarLabel: 'Register',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
-      name={Platform.OS === 'ios' ? 'ios-link' : 'md-link'}
+      name={Platform.OS === 'ios' ? 'ios-camera' : 'md-camera'}
     />
   ),
 };
@@ -55,6 +55,6 @@ ConfigStack.navigationOptions = {
 
 export default createBottomTabNavigator({
   ConfigStack,
-  LinksStack,
+  RegisterStack,
   HomeStack
 });
